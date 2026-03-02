@@ -10,7 +10,7 @@ import History from './pages/History';
 import Prising from './pages/Prising';
 import PaymentSuccess from './pages/PaymentSuccess';
 import PaymentFailed from './pages/PaymentFailed';
-export const serverUrl ="http://localhost:8000";
+export const serverUrl ="https://notegenius-ai.onrender.com";
 
 const App = () => {
   const dispatch = useDispatch();
