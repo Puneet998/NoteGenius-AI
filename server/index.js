@@ -9,7 +9,8 @@ import notesRouter from './routes/generate.route.js';
 import pdfRouter from './routes/pdf.route.js';
 import creditRouter from './routes/credits.route.js';
 import { stripeWebhook } from './controllers/credits.controller.js';
-
+import dns from 'dns'
+dns.setServers(['1.1.1.1','8.8.8.8'])
 
 const PORT =process.env.PORT || 5000;
 
